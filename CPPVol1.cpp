@@ -7,6 +7,14 @@ int main(){
 	return 0;
 }
 
+typeDef(){
+/*====
+In c++ you can actually add another name for an existing data type using typedef
+======*/
+	typedef int feet; //using typedef I am telling c++ that 'feet' is the equivilant of saying 'int'
+	feet distance = 5; //I can use 'feet' as the data type and it makes the variable 'distance' an 'int' type variable
+
+}
 
 void dataTypes(){
 	int	number_a = 0; 		//int stands for 'integer' which is a whole number value (either positive or negative)
